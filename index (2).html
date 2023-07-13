@@ -1,0 +1,238 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet"  href="style (1).css">
+    <script src="https://kit.fontawesome.com/4eefd026b6.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <span>M</span>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="col">
+                <div class="header-text">
+                    <p>Beginner developer</p>
+                    <h1>Hi,I'm <span>Mayur Mane</span></h1>
+                </div>
+                <div class="me">
+                    <img src="king-removebg-preview.png" alt="image"></img>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        My name is Mayur Mane, currently pursuing in B.Tech computer Engineering.I was 
+                        fortunate enough to know from a young age that I wanted to be an engineer.The Engineering
+                        way of thinking came naturally to me. What I didn't know was what type of engineer 
+                        I wanted to be.When push came to shove, I chose Computer Engineering.I am always 
+                        working on problem solving skills ,I do practice in hackerRank to improve my skills.
+                        I always ready to learn new things to master in my filed and my goal is to be a software engineer.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('At present')">At present</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="At present">
+                        <ul>
+                            <li><span>Internship</span><br>Currently not done any internship</li>
+                            <li><span>Education</span><br>in Fourth Semester</li>
+                            <li><span>Projects</span><br>Working on some college project & some other projects too</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li>Currently I am a fresher but I have Projects.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Pillai College of Engineering</span><br>Pursuing B.Tech Computer Engineering</li>
+                            <li><span>RF Naik College</span><br>Completed 12th in the year 2021</li>
+                            <li><span>SVS School</span><br>Completed 10th in the year 2019</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web development</h2>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <p>
+                        Proficient in HTML, CSS, and Javascript and now working on 
+                        Backend with willingness to continously learn and improve
+                    </p>
+                </div>
+                <div>
+                    <h2>Competitive Programming</h2>
+                    <i class="fa-solid fa-cube"></i>
+                    <p>
+                        I have recently started CP and I do practice questions on HackerRank. 
+                        Not best but I am trying my level best to be best in CP.
+                    </p>
+                </div>
+            </div>
+            <div class="samp">
+                <h2>Tools and Programming languages that I use for development and making projects</h2>
+            </div>
+            <div class="tool">
+                <div>
+                    <img src="c-icon.png" alt="image"></img>
+                    <h2>C</h2>
+                    <p>
+                        This is the first language which I learnt
+                    </p>
+                </div>
+                <div>
+                    <img src="python (1).png" alt="image"></img>
+                    <h2>Python</h2>
+                    <p>
+                        I am learning this programming language and I have also build some projects using this language.
+                    </p>
+                </div>
+                <div>
+                    <img src="html.png" alt="image"></img>
+                    <h2>Html</h2>
+                    <p>
+                        I use this language for creating Websites.
+                    </p>
+                </div>
+                <div>
+                    <img src="css-3.png" alt="image"></img>
+                    <h2>CSS</h2>
+                    <p>
+                        For styling and designing Websites.
+                    </p>
+                </div>
+                <div>
+                    <img src="js.png" alt="image"></img>
+                    <h2>JS</h2>
+                    <p>
+                        I use this language for making websites responsive and build them with full functionality.
+                    </p>
+                </div>
+                <div>
+                    <img src="java.png" alt="image"></img>
+                    <h2>Java</h2>
+                    <p>
+                        Begineer level knowledge about this language.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <h1>Food Heaven</h1>
+                    <img src="logo.png" alt="image"></img>
+                    <p>This is a Website for mess.Here you can have a monthly and weekly
+                        meal plans
+                    </p>
+                    <div class="layer">
+                    <a href="https://github.com/maxcode964/FoodHeaven"><input type="button" value="Show code" class="btn"></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <h1>Planner</h1>
+                    <img src="planner.png" alt="image"></img>
+                    <p>This is a Planner made with Python(Tkinter).
+                        This can be used to plan your day and list-down imp work to do.
+                    </p> 
+                    <div class="layer">
+                        <a href="https://github.com/maxcode964/Planner"><input type="button" value="Show code" class="btn"></a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="rows">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>maxcode964@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>8104048253</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/mayur-mane-35443923a"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <input type="submit" class="btn btn2">
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2023 Aniket Shende. Made with <i class="fa-solid fa-heart"></i> by me</p>
+    </div>
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwkSM4uCWHlQFJeVLNjgqWY64ey25bqDiN4uNh0TVg_fQEFjk_XgMOrIRLiNCKZIXpkRg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById('msg')
+    
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent sucessfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
